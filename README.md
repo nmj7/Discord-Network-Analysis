@@ -1,5 +1,5 @@
 # Discord-Network-Analysis
-## 📌 Introduction  
+## Introduction  
 Discord is a widely used platform that facilitates communication among various communities, particularly in the gaming space. With its rich text-based interaction, it offers a valuable dataset that can be mined to understand user behavior and community dynamics.  
 This project focuses on analyzing a Discord server’s text data to:
 
@@ -7,7 +7,7 @@ This project focuses on analyzing a Discord server’s text data to:
 - Calculate centrality and betweenness measures  
 - Extract insights about user interactions  
 
-## 🛠 Methodology  
+## Methodology  
 The analysis pipeline includes the following steps:
 
 1. **Data Collection**: Retrieve message data from the Discord server using a bot via the Discord API.  
@@ -17,7 +17,7 @@ The analysis pipeline includes the following steps:
 5. **Metric Calculation**: Compute centrality and betweenness to identify key users in the network.  
 6. **Insight Extraction**: Analyze the graph to draw conclusions about community structure and behavior.  
 
-## 🧰 Tools and Technologies  
+## Tools and Technologies  
 - **Python**  
 - **Discord API**  
 - [`discord.py`](https://github.com/Rapptz/discord.py) – For API access  
@@ -25,7 +25,7 @@ The analysis pipeline includes the following steps:
 - **NLTK** – Natural language processing  
 - **NetworkX** – Graph creation and analysis  
 
-## 📊 Results and Discussion  
+## Results and Discussion  
 Outcomes will vary depending on the server and dataset analyzed. The primary objective is to offer a framework for examining Discord-based communication networks, revealing patterns of interaction and identifying influential participants.
 
 ---
